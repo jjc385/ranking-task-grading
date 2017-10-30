@@ -37,6 +37,7 @@ def grade_ranking_task() :
 
 if __name__ == '__main__' :
 
+    print( "This question is worth ", probelm_point_value, " points" )
     print( "The correct answer is:  ", correct_string )
     print( "Note that student answers are not case sensitive.\n\n" )
 
