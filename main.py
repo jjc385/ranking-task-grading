@@ -23,7 +23,7 @@ def grade_ranking_task() :
         print("Warning:  student answer is NOT a rearrangement of the correct answer")
 
 
-    cypher = { letter:i for i,letter in enumerate(correct_answers) }
+    cypher = { letter:(i+1) for i,letter in enumerate(correct_answers) }
 
     student_numerical = [cypher[letter] for letter in student_answers]
 
