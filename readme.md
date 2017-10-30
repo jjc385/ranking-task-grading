@@ -2,9 +2,11 @@
 
 Josh Samani's script for grading ranking tasks
 
-Some updates made by Jared
+### Updates
 
-* Updated to work for an answer string of any length
-* Now prompts the grader for input
+Some updates made by Jared.  The script now :
+
+* Works for an answer string of any length
+* Prompts the grader to input the student's answer
 * Runs in an infinite loop so that the script need not be rerun for every student
 * Warns the grader if the student answer is not a rearrangement of the correct answer
