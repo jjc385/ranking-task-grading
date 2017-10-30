@@ -19,7 +19,7 @@ def grade_ranking_task() :
     student_answers = [letter for letter in student_string]
 
 
-    if sorted(student_answers) is not sorted(correct_answers) :
+    if sorted(student_answers) != sorted(correct_answers) :
         print("Warning:  student answer is NOT a rearrangement of the correct answer")
 
 
